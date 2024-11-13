@@ -48,6 +48,8 @@ jupyter-core==5.7.2
     #   jupyter-client
 kiwisolver==1.4.7
     # via matplotlib
+lpips==0.1.4
+    # via -r requirements.in
 markupsafe==2.1.5
     # via jinja2
 matplotlib==3.7.5
@@ -67,6 +69,7 @@ networkx==3.1
 numpy==1.24.4
     # via
     #   contourpy
+    #   lpips
     #   matplotlib
     #   pandas
     #   scipy
@@ -145,7 +148,9 @@ pyzmq==26.2.0
     #   ipykernel
     #   jupyter-client
 scipy==1.10.1
-    # via -r requirements.in
+    # via
+    #   -r requirements.in
+    #   lpips
 seaborn==0.13.2
     # via -r requirements.in
 six==1.16.0
@@ -159,15 +164,20 @@ sympy==1.13.3
 torch==2.4.1
     # via
     #   -r requirements.in
+    #   lpips
     #   torchvision
 torchvision==0.19.1
-    # via -r requirements.in
+    # via
+    #   -r requirements.in
+    #   lpips
 tornado==6.4.1
     # via
     #   ipykernel
     #   jupyter-client
 tqdm==4.67.0
-    # via -r requirements.in
+    # via
+    #   -r requirements.in
+    #   lpips
 traitlets==5.14.3
     # via
     #   comm
