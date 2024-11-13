@@ -1,4 +1,5 @@
 .vscode
 celeba
 **/MNIST
-**/*.pth
+pth
+**/*.ckpt
