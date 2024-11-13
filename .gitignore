@@ -3,3 +3,8 @@ celeba
 **/MNIST
 pth
 **/*.ckpt
+**/*.dist
+**/*.aln
+**/*.zip
+**/*.fasta
+Build Basic GANs/ProteinGAN/pre_trained_protein_gan
