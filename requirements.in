@@ -3,3 +3,5 @@ tqdm
 torchvision
 matplotlib
 ipykernel
+seaborn
+scipy
