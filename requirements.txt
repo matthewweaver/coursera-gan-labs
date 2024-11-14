@@ -28,6 +28,8 @@ fonttools==4.54.1
     # via matplotlib
 fsspec==2024.10.0
     # via torch
+imageio==2.35.1
+    # via scikit-image
 importlib-metadata==8.5.0
     # via jupyter-client
 importlib-resources==6.4.5
@@ -48,6 +50,8 @@ jupyter-core==5.7.2
     #   jupyter-client
 kiwisolver==1.4.7
     # via matplotlib
+lazy-loader==0.4
+    # via scikit-image
 lpips==0.1.4
     # via -r requirements.in
 markupsafe==2.1.5
@@ -65,15 +69,21 @@ mpmath==1.3.0
 nest-asyncio==1.6.0
     # via ipykernel
 networkx==3.1
-    # via torch
+    # via
+    #   scikit-image
+    #   torch
 numpy==1.24.4
     # via
     #   contourpy
+    #   imageio
     #   lpips
     #   matplotlib
     #   pandas
+    #   pywavelets
+    #   scikit-image
     #   scipy
     #   seaborn
+    #   tifffile
     #   torchvision
 nvidia-cublas-cu12==12.1.3.1
     # via
@@ -109,7 +119,9 @@ nvidia-nvtx-cu12==12.1.105
 packaging==24.2
     # via
     #   ipykernel
+    #   lazy-loader
     #   matplotlib
+    #   scikit-image
 pandas==2.0.3
     # via seaborn
 parso==0.8.4
@@ -120,7 +132,9 @@ pickleshare==0.7.5
     # via ipython
 pillow==10.4.0
     # via
+    #   imageio
     #   matplotlib
+    #   scikit-image
     #   torchvision
 platformdirs==4.3.6
     # via jupyter-core
@@ -143,14 +157,19 @@ python-dateutil==2.9.0.post0
     #   pandas
 pytz==2024.2
     # via pandas
+pywavelets==1.4.1
+    # via scikit-image
 pyzmq==26.2.0
     # via
     #   ipykernel
     #   jupyter-client
+scikit-image==0.21.0
+    # via -r requirements.in
 scipy==1.10.1
     # via
     #   -r requirements.in
     #   lpips
+    #   scikit-image
 seaborn==0.13.2
     # via -r requirements.in
 six==1.16.0
@@ -161,6 +180,8 @@ stack-data==0.6.3
     # via ipython
 sympy==1.13.3
     # via torch
+tifffile==2023.7.10
+    # via scikit-image
 torch==2.4.1
     # via
     #   -r requirements.in

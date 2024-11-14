@@ -6,3 +6,4 @@ ipykernel
 seaborn
 scipy
 lpips
+scikit-image
