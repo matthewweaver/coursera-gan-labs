@@ -12,3 +12,4 @@ Build Basic GANs/ProteinGAN/pre_trained_protein_gan
 **/*.pt
 **/*.pth
 **/*.tif
+horse2zebra
