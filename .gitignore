@@ -10,4 +10,5 @@ pth
 Build Basic GANs/ProteinGAN/pre_trained_protein_gan
 **/*.npz
 **/*.pt
+**/*.pth
 **/*.tif
